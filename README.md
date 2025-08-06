@@ -4,7 +4,7 @@ This is a work in progress..
 FreeIPA assigns users UIDs and GIDs that are outside the normal range configured in /etc/subuid and /etc/subgid.
 To switch to a FreeIPA-managed user inside a rootless Podman container, you need to extend this range on the host for the user running Podman.
 
-You can learn more about subuids and subgids [here](https://www.funtoo.org/LXD/What_are_subuids_and_subgids%3F).
+You can learn more about subuids and subgids in the context of containers [here](https://www.funtoo.org/LXD/What_are_subuids_and_subgids%3F).
 
 Update subuid and subgid ranges
 Edit /etc/subuid and /etc/subgid to extend the range for the Podman user, for example:
